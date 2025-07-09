@@ -11,12 +11,15 @@
 
 .hero-content {
     text-align: center;
+    position: relative;
+    z-index: 1;
 }
 
 .typescript {
     font-size: 3rem;
     font-weight: bold;
 }
+
 
 .btn {
     padding: 10px 20px;
@@ -29,11 +32,10 @@
     font-weight: bold;
     text-decoration: none;
     transition: background-color 0.3s;
+    animation: bounce 2s ease;
 }
 
-.btn:hover {
-    background-color: #ddd;
-}
+
 
 .typewriter {
     display: inline-block;
@@ -52,7 +54,7 @@
 
 @keyframes blink {
     from, to { border-color: transparent }
-    50% { border-color: orange }
+    to { border-color: orange }
 }
 
 .slide {
@@ -60,7 +62,7 @@
     height: 100px;
     background-color: #ff5722;
     border-radius: 50%;
-    animation: slide 2s ease-in-out infinite alternate;
+    animation: slide 2s ease-in-out infinite alternate ,colorchange 3s ease-in-out infinite alternate;
 }
 
 

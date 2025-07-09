@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(221, 129, 186);
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:20px;
+}
+.navbar{
+    background-color: rgb(25, 25, 24);
+    color:white;
+    padding:10px;
+    text-align: center;
+
+}
+.navbar a{
+    color:white;
+    text-decoration: none;
+    padding:10px;
+}
+.navbar a:hover{
+    background-color: blueviolet;
+}
+.navbar li{
+    display:inline;
+    margin:0 10px;
+    text-decoration: none;
+}
+.navbar h1{
+    margin: 0;
+    font-size: 24px;
+}.myworks{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap:20px;
+}
+footer{
+    background-color: #333;
+    color:white;
+   text-align: center;
+   padding: 10px;
+
+}.mywork1{
+    background-color: rgb(133, 230, 154);
+}
+.mywork2{
+    background-color: rgb(209, 81, 7);
+}
+.mywork3{
+    background-color: rgb(95, 17, 211);
+}
